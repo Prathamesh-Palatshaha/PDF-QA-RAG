@@ -20,7 +20,7 @@ It combines:
 ---
 
 ## 📂 Project Structure
-├── Research_Paper_QA.ipynb # Main notebook with complete code & instructions
+├── Langchain Multimodal Rag.ipynb # Main notebook with complete code & instructions
 
 ├── README.md # Project documentation
 
