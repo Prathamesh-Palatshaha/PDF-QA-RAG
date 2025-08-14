@@ -1,6 +1,6 @@
 # 📄 PDF Q&A with Multi-Modal Retrieval (Gemini-powered)
 
-This project allows you to **upload a research paper PDF** into a **Jupyter Notebook** and then **ask natural language questions** about its contents — including **text, tables, and images** — using **Google Gemini** (free model).  
+This project allows you to **upload a PDF** into a **Jupyter Notebook** and then **ask natural language questions** about its contents — including **text, tables, and images** — using **Google Gemini** (free model).  
 
 It combines:
 - **PDF parsing** (text, tables, images)
