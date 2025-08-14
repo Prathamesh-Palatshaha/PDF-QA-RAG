@@ -1,16 +1,14 @@
-
-
 # for linux
 !apt-get install poppler-utils tesseract-ocr libmagic-dev
 
 # Commented out IPython magic to ensure Python compatibility.
-# %pip install -Uq "unstructured[all-docs]" pillow lxml pillow
-# %pip install -Uq chromadb tiktoken
-# %pip install -Uq langchain langchain-community langchain-openai langchain-groq
-# %pip install -Uq python_dotenv
+%pip install -Uq "unstructured[all-docs]" pillow lxml pillow
+%pip install -Uq chromadb tiktoken
+%pip install -Uq langchain langchain-community langchain-openai langchain-groq
+%pip install -Uq python_dotenv
 
 # Commented out IPython magic to ensure Python compatibility.
-# %pip install -U langchain-google-genai
+%pip install -U langchain-google-genai
 
 import os
 
@@ -400,8 +398,3 @@ for text in response['context']['texts']:
 for image in response['context']['images']:
     display_base64_image(image)
 
-"""## References
-
-- [LangChain Inspiration](https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_structured_and_multi_modal_RAG.ipynb?ref=blog.langchain.dev)
-- [Multivector Storage](https://python.langchain.com/docs/how_to/multi_vector/)
-"""
